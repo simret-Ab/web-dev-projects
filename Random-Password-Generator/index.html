@@ -1,9 +1,14 @@
 <!doctype html>
+<!--This tells the browser which version of HTML we are using for this web page-->
 <html lang="en">
+  <!--This(the lang) attribute helps the browser and search engines to understand the language of the content which improve accessibility and SEO-->
   <head>
+    <!--The head section contains important metdata -->
     <meta charset="UTF-8" />
+    <!--The Char set attribute sets the character encoding for HTML documents  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random password Generator</title>
+    <title>Random Password Generator</title>
+    <!--The title tage specifies the title of our web page.-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -16,20 +21,19 @@
   <body>
     <div class="password-container">
       <h2>Random Password Generator</h2>
-
-      <!--This div will wrap the input fild and the copy icon.-->
       <div class="input-container">
         <input
           type="text"
           id="input"
           class="input"
-          placeholder=" Create Password"
+          placeholder="Create Password"
           readonly
         />
         <i class="fa-regular fa-copy fa-2x"></i>
       </div>
-      <button class="btn">Generate</button>
+      <button class="btn">Generator</button>
     </div>
-    <div class="alert-container">password Copied</div>
+    <div class="alert-container">Password copied!</div>
+    <script src="script.js"></script>
   </body>
 </html>
